@@ -29,7 +29,7 @@ const AddFriendForm = (props) => {
         <input required type="text" name='name' id='name' placeholder='name' value={newFriend.name} onChange={handleChanges} />
         <input required type="email" name='email' id='email' placeholder='email' value={newFriend.email} onChange={handleChanges} />
         <input required type="number" name='age' id='age' placeholder='age' value={newFriend.age} onChange={handleChanges} />
-        <button>Add Friend</button>
+        <button>Add Friend.</button>
         </form>
     );
 };
