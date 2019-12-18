@@ -18,7 +18,7 @@ const FriendsList = () => {
 
     return (
         <section>
-            <h1>FriendsList</h1>
+            <h1>Friends List:</h1>
             <div className='friends-list'>
             {
                 friends.map(friend => {
